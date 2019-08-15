@@ -38,10 +38,9 @@ a:hover{
 }
 
 header#cabecalho img#icone{
-
-    position: absolute;
-    left: 780px;
-    top: 40px
+    position: relative;
+    left: 730px;
+    top: -30px
 
 }
 
@@ -95,13 +94,14 @@ figure.foto-legenda figcaption {
     transition: opacity 1s;
 }
 
-figure.foto-legenda:hover figcaption {
+figure.foto-legenda:hover figcaption {  
     opacity: 1;
 }
 
-/*Formatação do menu*/
+/*--------------------Formatação do menu --------------------*/
 nav#menu {
     display: block;
+    
 }
 
 nav#menu ul{
@@ -109,7 +109,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 400px;
+    left: 750px;
 }
 
 nav#menu li {
