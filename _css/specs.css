@@ -5,12 +5,6 @@ body {
 
 }
 
-/* section#corpo-full { */
-	/* margin: auto; */
-	/* overflow: hidden; */
-	/* height: 800px; */
-/* } */
-
 section#conteudo {
 	width: 8500px;
 	margin: auto;
@@ -18,7 +12,7 @@ section#conteudo {
 }
 
 iframe#frame-spec {
-	width: 423px;
+	width: 400px;
 	height: 300px;
 	border: none;
 	overflow: hidden;
