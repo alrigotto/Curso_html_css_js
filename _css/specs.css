@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+	overflow: hidden
+
+}
+
+/* section#corpo-full { */
+	/* margin: auto; */
+	/* overflow: hidden; */
+	/* height: 800px; */
+/* } */
+
+section#conteudo {
+	width: 8500px;
+	margin: auto;
+	/* overflow: hidden; */
+}
+
+iframe#frame-spec {
+	width: 423px;
+	height: 300px;
+	border: none;
+	overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+	display: none;
+}
