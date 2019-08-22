@@ -7,4 +7,6 @@ Projeto baixado do github para o Linux. 11/08/19
 
 - Pela razão acima. algumas imagens foram ajustadas, pois ficaram em conflito ao passa o mouse sobre os links do menu.
 
+- Na pagina specs.html tive dificuldade em tirar as barras de rolagem. Com uma dica do Rodrigo consegui, mas usei apenas "scrolling="no"" no html, pois na aula foi usado o "overflow: hidden" no CSS que não funcionou.
+O Rodrigo também usou "frameborder="0"" no html, mas eu não precisei.
 
