@@ -198,36 +198,49 @@ header#cabecalho-artigo h3 {
 
     
 }
+/* ------------------------ Inicio tabela spec ---------------------------- */
 
 table#tabelaspec{
+    font-size: 12pt;
     border: 1px solid #606060;
-    border-spacing: 0px;
+    /* border-spacing: 0px; */
+    border-collapse: collapse;
     margin-left: auto;
     align-self: auto;
     margin: auto;
-    
-
+    box-shadow: 1px 1px 2px black;
 }
 
 table#tabelaspec td{
-    border: 1px solid #606060;
+    /* border: 2px solid #606060; */
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
 
 table#tabelaspec td.ce{
+    border: none;
     color: white;
     background-color: #606060;
     vertical-align: top;
     font-weight: bold;
+}
 
+#res{
+    border: solid 1px #606060;
+}
 
+#wi-{
+    border-top: solid 1px #606060;
+}
+
+#dgb{
+    border-top: solid 1px #606060;
 }
 
 table#tabelaspec td.cd{
+    border-left : 1px solid #606060;
     background-color: #cecece;
-
 }
 
 table#tabelaspec caption{
@@ -243,7 +256,14 @@ table#tabelaspec caption span{
     color: black;
     font-size: 8pt;
     margin-top: 10px;
+}
 
+/* ------------------------- Final tabela spec--------------------------- */
+
+
+video#filme1 {
+    width: 430px;
+    height: auto;
 }
 
 aside#lateral {
@@ -270,6 +290,11 @@ aside#lateral h2{
     color: #ffffff;
     padding: 5px;
     
+}
+
+video#filme2 {
+    width: 420px;
+    height: auto;
 }
 
 footer#rodape {
